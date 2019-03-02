@@ -2,9 +2,9 @@ FROM circleci/node:8.10.0
 
 RUN mkdir -p /var/opt
 
-RUN apt update
+RUN sudo apt-get update
 
-RUN apt install wget
+RUN sudo apt-get install wget
 
 RUN wget -q https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-3.3.0.1492-linux.zip
 
