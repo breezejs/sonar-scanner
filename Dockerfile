@@ -1,4 +1,4 @@
-FROM circleci/node:8.10.0
+FROM circleci/node:10.15
 
 RUN mkdir -p /var/opt
 
